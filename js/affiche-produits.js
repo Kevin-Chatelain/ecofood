@@ -1,4 +1,4 @@
-fetch('../js/liste.php')
+fetch('../js/liste.json')
 .then(function (reponse) {
 	return reponse.json();
 })
