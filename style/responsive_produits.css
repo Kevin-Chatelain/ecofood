@@ -1,0 +1,189 @@
+
+.transition-css>h1{
+    margin-top: 20%;
+}
+
+
+.page_produits{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 100px;
+    margin-bottom: 100px;
+
+}
+
+
+.produit_bloc {
+    width: 28%;
+    margin: 40px 20px 40px 20px;
+
+}
+
+.produit_photo {
+    width: 100%;
+    height: 350px;
+
+    
+}
+
+
+.produit_info>h3 {
+    font-size: 1.3em;
+}
+
+.produit_info>p {
+    font-size: 0.95em;
+}
+
+
+.produit_prix>p {
+    font-size: 2em;
+}
+
+
+.panier {
+    margin: 40px auto 100px auto;
+    border-radius: 20px;
+    position:relative;
+    justify-content: space-between;
+    width: 30%;
+
+}
+
+.main_produits>.titre_principale>.categorie {
+    display: block;
+}
+
+.main_produits>.titre_principale {
+    width: 100%;
+    padding: 20px 50px;
+    justify-content: center;
+
+}
+
+
+#titre_produits {
+    margin: 0 !important;
+}
+.main_produits>.titre_principale>h1 {
+    align-items: center;
+}
+
+.main_produits>.categorie {
+    display: none;
+}
+
+
+
+
+.main_panier>.titre_principale>.categorie_panier  {
+    display: block;
+}
+
+
+
+.bloc_produit_panier:nth-child(even) {
+    animation: content-appear-left 0.8s forwards ease-in;
+}
+
+.bloc_produit_panier:nth-child(odd) {
+    animation: content-appear-right 0.8s forwards ease-in;
+
+}
+
+
+
+.produits_panier {
+    width: 50%;
+    margin: 25px auto;
+}
+
+
+.panier_droite {
+    width: 50%;
+}
+
+
+
+#payement {
+    border-bottom: none;
+}
+
+
+
+#panier_payement {
+    width: 50%;
+    padding: 75px;
+}
+
+.input_payement {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.payement_container {
+    margin-top: 60px;
+}
+
+input[type = submit] {
+    width: 50%;
+    margin-top: 30px;
+}
+
+
+
+
+#payement_validation {
+    width: 50%;
+    padding: 70px;
+}
+
+#payement_validation>p {
+    font-size: 1.15em;
+}
+
+#payement_validation>p:nth-child(3) {
+    margin-bottom: 40px;
+}
+
+#payement_validation>a {
+    font-family: 'Palmer-lake';
+    font-size: 2.75em;
+    color: white;
+    background: black;
+    padding: 5px 20px;
+    width: 80%;
+    margin: 5px auto;
+    border-radius: 40px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+
+.indications {
+    font-size: 1em;
+    text-align: center;
+    width: 100%;
+    margin: 75px 0;
+}
+
+
+.indications>p {
+    margin:0;
+}
+
+
+footer>.ordinateur{
+    display: flex;
+}
+
+footer>.telephone{
+    display: none;
+}
+
+footer {
+    border-top: unset;
+}
+
+

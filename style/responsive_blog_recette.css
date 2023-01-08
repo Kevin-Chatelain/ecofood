@@ -1,0 +1,47 @@
+footer {
+    border-top: unset;
+}
+footer>.ordinateur{
+    display: flex;
+}
+
+footer>.telephone{
+    display: none;
+}
+
+
+.bloc_preparation {
+    border-bottom: 0px solid black;
+}
+
+.blog_image {
+    text-align: center;
+}
+
+.transition {
+    display: none;
+}
+
+.blog {
+    margin: 0px 300px;
+}
+
+
+.bloc_blog {
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 20px;
+}
+
+h3{
+    text-align: start;
+    padding-left: 5px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+

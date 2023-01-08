@@ -1,0 +1,109 @@
+.titre_principale{
+    width: 92%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 10px;
+}
+
+.bloc_blog {
+    width: 92%;
+    padding: 5px;
+    padding-bottom: 20px;
+    margin: 30px auto;
+    border-bottom: 2px solid black;
+}
+
+
+.blog_image>picture>img {
+    border-radius: 20px;
+}
+
+.blog_info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.blog_text {
+    padding-left: 15px;
+}
+
+.blog_text>h2 {
+    font-size: 1.55em;
+    font-family: 'Ramillas-black';
+    text-decoration: none;
+    color: black;
+}
+
+
+.blog_text>p {
+    font-size: 1em;
+    text-decoration: none;
+    color: black;
+}
+
+.blog_info>.like {
+    padding: 15px 20px 10px 20px;
+}
+
+
+.bloc_ingredient {
+    border-bottom: var(--noir) 2.5px solid;
+}
+
+h3 {
+    text-align: center;
+    padding: auto 20px;
+}
+
+.bloc_aliments {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.bloc_preparation {
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.bloc_texte>p{
+    padding: 10px;
+}
+
+.texte {
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.texte>p {
+    padding: 10px;
+}
+
+.bloc_image {
+    text-align: center;
+}
+
+
+.liked {
+    fill: #d64f4f;
+}
+
+
+.bi-heart-fill {
+    transition: 0.4s;
+}
+
+.bi-heart-fill:hover {
+    cursor: pointer;
+}

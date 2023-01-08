@@ -1,0 +1,112 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 500px) {
+
+ 
+
+    header {
+        justify-content: left;
+    }
+
+    
+    main {
+        height: 450px;
+    
+    }
+
+    main>div {
+        width: 70%;
+    }
+
+    main>div>h1 {
+        font-size: 3.3em;
+    }
+
+    
+    main>div>a {
+        font-size: 1.5em;
+        padding: 1px 25px;
+    }
+
+    
+
+}
+
+
+
+
+@media screen and (min-width: 800px) {
+
+
+   
+
+
+    main>div {
+        width: 30%;
+        margin-top: 200px;
+    }
+
+    main>div>h1 {
+        font-size: 4.2em;
+    }
+
+    
+    main>div>a {
+        font-size: 1.7em;
+        padding: 1px 25px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1100px) {
+
+    video {
+        object-fit: cover;
+        width: 100%;
+    }
+
+
+
+
+    main>div {
+        width: 30%;
+    }
+
+    main>div>h1 {
+        font-size: 4em;
+    }
+
+    
+    main>div>a {
+        font-size: 1.7em;
+        padding: 1px 25px;
+    }
+
+}
+
+
+
+
+

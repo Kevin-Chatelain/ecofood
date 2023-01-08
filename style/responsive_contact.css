@@ -1,0 +1,43 @@
+#text_contact {
+  font-size: 1em;
+  width: 75%;
+}
+
+
+.transition-css>h1{
+  margin-top: 20%;
+}
+
+
+footer>.ordinateur{
+    display: flex;
+}
+
+footer>.telephone{
+    display: none;
+}
+
+footer {
+  border-top: unset;
+}
+
+main {
+    padding: 0px 200px;
+}
+
+form textarea {
+    min-height: 10px;
+    font-size: 1.5em;
+}
+
+form input[type = submit] {
+  min-height: 10px;
+}
+
+form input[type = text] {
+  font-size: 1.5em;
+}
+
+form input {
+  min-height: 50px;
+}

@@ -1,0 +1,67 @@
+footer {
+    border-top: unset;
+}
+footer>.ordinateur{
+    display: flex;
+}
+
+footer>.telephone{
+    display: none;
+}
+
+
+
+.transition-css>h1{
+    margin-top: 20%;
+}
+
+#roger {
+    background: var(--violet);
+    top: 100px;
+    left: 200px;
+}
+
+#thierry {
+    background: var(--vert);
+    top: 400px;
+    left: 500px;
+}
+
+#helene {
+    background: var(--bleu);
+    top: 100px;
+    left: 800px;
+}
+
+#jordan {
+    background: var(--beige);
+    top: 400px;
+    left: 1000px;
+}
+
+.circle-container {
+    min-height: 700px;
+}
+
+
+.circle {
+    width: 225px;
+    min-height: 225px;
+}
+
+p{
+    font-size: 1em;
+}
+
+#text_contact>p{
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+

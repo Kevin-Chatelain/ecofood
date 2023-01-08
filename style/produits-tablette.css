@@ -1,0 +1,10 @@
+.produit_bloc {
+    width: 70%;
+}
+
+
+@media screen and (min-width: 700px) {
+    .produit_bloc {
+        width: 40%;
+    }
+}

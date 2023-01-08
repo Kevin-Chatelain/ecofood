@@ -1,0 +1,99 @@
+
+
+
+.circle-container {
+    width: 100%;
+    min-height: 800px;
+    position: relative;
+
+}
+
+.circle {
+    width: 175px;
+    min-height: 175px;
+    display: grid;
+    place-items: center;
+    border-radius: 100%;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.circle>h3 {
+    font-family: 'Palmer-lake';
+    font-size: 2.5em;
+    font-weight: lighter;
+}
+
+.circle>p {
+    display: none;
+    font-family: arial;
+    font-size: 0.75em;
+    padding: 20px;
+    text-align: center;
+}
+
+.circle>span {
+    display: none;
+    padding: 0 8px;
+    border-radius: 100%;
+    background: none;
+    font-weight: bold;
+    color: black;
+    font-family: 'Palmer-lake';
+    font-size: 1.5em;
+
+}
+
+.circle>span:hover {
+    background-color: rgb(255, 146, 146);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#roger {
+    background: var(--violet);
+    top: 0;
+    left: calc(50% - 87.5px );
+}
+
+#thierry {
+    background: var(--vert);
+    top: 200px;
+    left: calc(50% - 87.5px );
+}
+
+#helene {
+    background: var(--bleu);
+    top: 400px;
+    left: calc(50% - 87.5px );
+}
+
+
+#jordan {
+    background: var(--beige);
+    top: 600px;
+    left: calc(50% - 87.5px );
+}
+
+
+.affiche {
+    display: block !important;
+}
+
+.aggrandi {
+    z-index: 3;
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+
+
+
+

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Un panier fonctionnel qui vous permet de choisir la quantité de vos articles et la manière dont ils vous seront remis.">
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/produits.css">
+    <link rel="stylesheet" href="../style/scrollbar.css">
+    <link rel="stylesheet" media="screen and (min-width:1200px)" href="../style/responsive_produits.css">
+    <link rel="stylesheet" media="screen and (min-width:800px)" href="../style/responsive.scrollbar.css">
+    <link rel="icon" href="../img/faviconECOFOOD_vert.ico">
+    <title>Eco Food - Nos Produits</title>
+    
+    
+    <style>
+        html {
+          scroll-behavior: smooth;
+        }
+        
+        
+    </style>
+</head>
+<body>
+
+
+
+    <div class="menu">
+        <div class="back">
+            <svg id="menu_burger2" height="30" width="30" viewBox="0 0 20 20">
+                <path fill="#000" d="M15.898,4.045c-0.271-0.272-0.713-0.272-0.986,0l-4.71,4.711L5.493,4.045c-0.272-0.272-0.714-0.272-0.986,0s-0.272,0.714,0,0.986l4.709,4.711l-4.71,4.711c-0.272,0.271-0.272,0.713,0,0.986c0.136,0.136,0.314,0.203,0.492,0.203c0.179,0,0.357-0.067,0.493-0.203l4.711-4.711l4.71,4.711c0.137,0.136,0.314,0.203,0.494,0.203c0.178,0,0.355-0.067,0.492-0.203c0.273-0.273,0.273-0.715,0-0.986l-4.711-4.711l4.711-4.711C16.172,4.759,16.172,4.317,15.898,4.045z"></path>
+            </svg>
+        </div>
+        <div class="lien">
+            <a href="produits.html">Nos produits</a>
+            <a href="blog.html">Notre Blog</a>
+            <a href="panier.html" style="border-bottom: 2px solid var(--vert);">Votre panier</a>           
+            <a href="apropos.html">A propos</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+
+    
+
+    <header>
+
+        <div>
+            <a href="../html/produits.html">
+                <img src="../img/logoECOFOOD_vertEntier.svg" alt="logo EcoFood" loading="lazy" height="150px" width="150px">
+            </a>
+
+        </div>
+        <svg id="menu_burger" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+    </header>
+
+    <main class="main_produits main_panier" >
+        <div class="titre_principale" id="titre_produits">
+            <h1 id="here">Votre Panier</h1>
+            <div class="categorie categorie_panier">
+                <a href="#" class="place">Sur place</a>
+                <a href="#" class="emporter">Livraison</a>
+            </div>
+        </div>
+
+        <div class="categorie categorie_panier">
+            <a href="#" class="place">Sur place</a>
+            <a href="#" class="emporter">Livraison</a>
+        </div>
+
+
+        <div id="payement">
+
+            <div class="indications">
+                <p>Dites nous quand est-ce que vous voulez recevoir vos articles, et où dans le cas d'une livraison.</p>
+            </div>
+
+            <div class="input_payement">
+                <h3>Adresse</h3>
+                <input id="adresse" type="text">
+            </div>
+
+            <div class="input_payement">
+                <h3>Horaire</h3>
+                <input id="horaire" type="text">
+            </div>
+        </div>
+
+        <div class="indications">
+            <p>Vous pouvez ici choisir la quantité de vos aliments</p>
+            <p>Une fois cela fait, choisissez un moyen de récupérer vos achats entre "Sur place" ou "Livraison".</p>
+            <p>Vous pourrez alors cliquer sur "Passer en caisse" et procéder au règlement de la commande.</p>
+        </div>
+
+
+        <div class="produits_panier produits">
+
+        <!-- Générés automatiquement d'après les choix de la page produits enregirstrés dans localStorage -->
+
+        </div>
+
+
+
+        <div class="panier_final panier">
+            <a id="mode_payement">Mode de paiement</a>
+            <a href="#here" id="passer_caisse" style="display: none;">Passer en caisse</a>
+            <p>Total</p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        
+        <div class="panier_final panier" id="panier_payement">
+            <div class="payement_infos">
+                <div>
+                    <p>Paiement</p>
+                    <p id="prix_payement">Prix ici</p>
+                </div>
+
+
+                <div>
+                    <p>Livraison</p>
+                    <p id="livraison">0.00 €</p>
+                </div>
+
+
+                <div>
+                    <p>Promos</p>
+                    <p id="promo">0.00 €</p>
+                </div>
+
+            </div>
+
+
+
+            <div class="payement_actions">
+                <div class="total_action_payement">
+                    <p>Total</p>
+                    <p>9.5 €</p>
+                </div>
+
+                <div class="payement_container">
+                    <div>
+
+                        <div class="boutons_payement">
+                            <select name="" id="select_surplace">
+                                <option value="">Sur place</option>
+                            </select>
+
+
+                            <select style="display : none;" name="" id="select_emporter">
+                                <option value="">ApplePay</option>
+                                <option value="">CB</option>
+                                <option value="">PayPal</option>
+                            </select>
+                            
+
+
+                            <input type="text" placeholder="Promocode">
+                        </div>
+                    </div>
+
+
+                    <input type="submit" value="Valider la commande">
+
+                    <p id="message"></p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="panier_final panier" id="payement_validation">
+            <p>Merci beaucoup pour votre commande !</p>
+            <p>Votre commande est en cours de préparation.</p>
+            <p>Nous vous informerons quand elle sera prête.</p>
+
+            <a href="produits.html">Retour en magasin</a>
+        </div>
+
+
+
+
+
+    
+    
+    </main>
+
+    <script src="../js/panier.js"></script>
+    <script src="../js/menu.js"></script>
+</body>
